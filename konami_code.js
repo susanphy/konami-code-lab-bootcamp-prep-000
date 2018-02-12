@@ -5,7 +5,7 @@ function init() {
 
 let index=0
 
-addEventListener('keydown,function(e)'){
+addEventListener('keydown',function(e)){
   const key = parseInt(e.detail || e.which);
 
   if (key === alphabet[index]) {
